@@ -1,4 +1,4 @@
-INSERT INTO bymkasxrdwakgzroimmy 
-    (student_name, student_lastName, email, birth_day)
+INSERT INTO students 
+    (student_name, student_lastName, email, birthday)
   VALUES
-    ('jose', 'Mark', 'example@gmail.com', '2024-02-14');
+    ('julian', 'Mark', 'gomxaple@gmail.com', '2024-02-14');

@@ -13,8 +13,6 @@ FROM students;
 
 /*List students*/
 SELECT * FROM students
-WHERE student_name 
-LIKE 'm%' OR 'j%';
-
-SELECT * FROM students
-WHERE student_name LIKE 'a%';
+WHERE student_name LIKE 'j%' 
+OR student_name LIKE 'm%'
+ORDER BY student_name;
