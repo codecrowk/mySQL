@@ -27,8 +27,12 @@ AS
 SELECT * FROM Customers WHERE City = @City
 GO;
 
-CREATE PROCEDURE citycount (IN country CHAR(3))
+DELIMITER //
+CREATE PROCEDURE getStudentByID2 (IN userID CHAR(20))
        BEGIN
          SELECT * FROM students
-         WHERE CountryCode = country;
-       END
+         WHERE id_student = userID;
+        END//
+DELIMITER ;
+
+CALL getStudentByID2(3);
