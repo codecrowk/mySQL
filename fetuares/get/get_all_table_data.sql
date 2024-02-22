@@ -9,4 +9,5 @@ CREATE PROCEDURE getAllTableData (IN tableName CHAR(20))
 DROP PROCEDURE getAllTableData;
 
 -- The way to call a database
-CALL getAllTableData('cars');
+CALL getAllTableData('brands');
+SELECT * FROM brands
