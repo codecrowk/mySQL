@@ -28,6 +28,7 @@ SELECT * FROM Customers WHERE City = @City
 GO;
 
 DELIMITER //
+-- WORKING PRETTY WELL
 CREATE PROCEDURE getStudentByID2 (IN userID CHAR(20))
        BEGIN
          SELECT * FROM students
@@ -36,3 +37,5 @@ CREATE PROCEDURE getStudentByID2 (IN userID CHAR(20))
 DELIMITER ;
 
 CALL getStudentByID2(3);
+
+DROP TABLE students;
