@@ -60,3 +60,18 @@ VALUES
     ('VWX-234', 'Audi', 'Orange', '2022-01-08', '2023-01-08'),
     ('YZA-567', 'Volkswagen', 'Yellow', '2022-01-09', '2023-01-09'),
     ('BCD-890', 'Subaru', 'Purple', '2022-01-10', '2023-01-10');
+
+SHOW TABLES;
+
+SELECT * FROM colors;
+
+insert into colors (type_color) values ('Green');
+insert into colors (type_color) values ('Turquoise');
+insert into colors (type_color) values ('Crimson');
+insert into colors (type_color) values ('Khaki');
+insert into colors (type_color) values ('Goldenrod');
+insert into colors (type_color) values ('Crimson');
+insert into colors (type_color) values ('Crimson');
+insert into colors (type_color) values ('Orange');
+insert into colors (type_color) values ('Green');
+insert into colors (type_color) values ('Aquamarine');
