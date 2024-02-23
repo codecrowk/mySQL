@@ -39,7 +39,7 @@ CREATE TABLE parking_places (
 );
 
 /*- Secondary tables -*/
-CREATE TABLE dny_type (
+CREATE TABLE dni_type (
   id_type_document INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
          name_type VARCHAR(45)
 );

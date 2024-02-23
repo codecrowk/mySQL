@@ -10,3 +10,5 @@ INNER JOIN dny_type
 INNER JOIN gender 
   ON users.gender_id = gender.id_gender
 WHERE gender.type_gender = 'male';
+
+SELECT * FROM cars;

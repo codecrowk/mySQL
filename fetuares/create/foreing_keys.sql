@@ -11,5 +11,3 @@ ALTER TABLE users
 
 ALTER TABLE users
   ADD FOREIGN KEY (gender_id) REFERENCES gender(id_gender);
-SHOW TABLES;
-SELECT * FROM gender;
