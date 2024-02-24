@@ -9,4 +9,4 @@ CREATE PROCEDURE removeTable (IN tableName CHAR(20))
 DROP PROCEDURE removeTable;
 
 -- The way to call a database
-CALL removeTable('cars');
+CALL removeTable('parking_register');

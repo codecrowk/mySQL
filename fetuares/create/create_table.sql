@@ -6,6 +6,7 @@ CREATE TABLE parking_register (
   id_register INT AUTO_INCREMENT NOT NULL,
       id_user INT NOT NULL,
        id_car INT NOT NULL,
+     id_place INT NOT NULL,
         doing BOOLEAN NOT NULL, 
    created_at TIMESTAMP,
   PRIMARY KEY (id_register)
@@ -13,8 +14,8 @@ CREATE TABLE parking_register (
 
 CREATE TABLE users (
      id_user INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
-  dni_number VARCHAR(100),
    name_user VARCHAR(45),
+  dni_number VARCHAR(100),
    last_name VARCHAR(45),
        email VARCHAR(120),
    gender_id INT,
@@ -25,8 +26,8 @@ CREATE TABLE users (
 
 CREATE TABLE cars (
       id_car INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
-       plate VARCHAR(45),
     brand_id INT,
+       plate VARCHAR(45),
     color_id INT,
   created_at TIMESTAMP,
    remove_at TIMESTAMP
